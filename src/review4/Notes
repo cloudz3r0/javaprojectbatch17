@@ -1,0 +1,10 @@
+2 ways of making arrays
+1)datatype [] nameOfArray={element0,element1,element2,element3}
+int [] ages={25,32,29,45}
+2) datatype [] nameOfArray= new Datatype[size]
+int [] ages= new int[5]
+ages[0]=25;
+ages[1]=32;
+ages[2]=45;
+ages[3]=54;
+ages[4]=64;

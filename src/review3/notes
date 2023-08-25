@@ -1,0 +1,8 @@
+!not operator
+boolean cond=true;
+sout"!cond"
+
+2: OR(||)
+combine more variables but only one has to true to print
+the statement you want.All values need to be false
+to be false or not print the statement.

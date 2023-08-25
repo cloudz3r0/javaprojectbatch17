@@ -19,5 +19,9 @@ public class E2TypeCasting {
         byte number4; //basically dont try to store bigger value boxes into small boxes.Will get a random value
         number4=(byte)number3;
         System.out.println(number4);
+        double num1=500.4444;
+        long num2;
+        num2=(long)num1;
+        System.out.println(num2);
     }
 }
