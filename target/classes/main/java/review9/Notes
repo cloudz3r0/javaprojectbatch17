@@ -1,0 +1,31 @@
+SuperKeyword:
+Helps us refer to parent class.
+To call something from parent class Specifically.
+Why should we use super?
+1)It is used to specifically call something from parent class.
+Cant call private members. Use this keyword to call on parents private instance.
+2)We can user super(); to call the constructor from the parent.
+
+MethodOverloading:
+1)When we have same method with different parameters its called method overloading.
+2)3 ways to overload. Change the count of parameters. Change the order of parameters.
+Change the datatypes. we can overload methods and constructors.
+Why?
+No need for different name methods if they just need parameters.
+Cleaner code. Reuse same name.
+interview questions?
+1. Can we overload a private method?
+Cant access it unless we're in the same class.
+2. Can we overload a static method?
+Yes.
+3. Can we overload the main method?
+yes with Access modifier, or parameters.
+4. Can we overload a method by changing its return type?
+no it wont be the same method anymore. Changing parameters not signature.
+5)Can we overload a protected method?
+Yes.
+===========================================================
+Method Overriding:
+When same method is present in parent as well as child class. Its called method overriding.
+When we override a method Java prefers the method from the child class.
+Why should we use?

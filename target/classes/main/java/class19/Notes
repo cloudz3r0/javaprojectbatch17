@@ -1,0 +1,75 @@
+Method overloading:
+Method overloading happens when multiple methods with same name.
+Allows to access the same name but with different parameters.
+
+1)Different number of parameters for example min(2,3), min (4,5,6).One has two
+parameters and one has 3.
+2)Different datatype of methods. print("String") print(12).
+3)Different sequence of parameters. print("Java",12), print (12,"Java")
+one has string and int then the other has int and string. Datatypes are same
+but sequences are not.
+
+Why should we learn about method overloading:
+1)Cleaner Code
+2)Dont need to come up with different method names.
+
+Syntax:
+class Calculator{
+int add(int a, int b){
+return a+b;
+    }
+
+    int addThreeNumbers(int a, int b, int c){
+    return a+b+c;
+    }
+
+double addDouble(double a,double b){
+return a+b
+    }
+
+long addLong(long a, long b){
+return a+b
+     }
+    Signature of a method:
+    method name plus is parameters are called the signature of a method
+    Header:
+    the datatype.
+
+
+Topics to revise for Selenium:
+    1.) Classes and Objects
+    2.) Methods
+    3.) String Methods
+    4.) Loops
+    5.) If-Else
+
+    Overloading rules:
+    When the same method or constructor is in the same class with different parameters.
+    Arguments of method must be different(parameters)
+    Method signature must be different
+    Private,static and final methods can be overloaded.
+    Access modifiers point of view no restriction.
+    Also know as compile time polymorphism or static polymorphism.
+    Doesnt need inheritance. Should be in same class.
+    For overloading return type mtehods may or may not be the same return.
+
+    Overriding rules:
+    When the same method or same constructor is repeated in class or subclass with
+    same parameters.
+    Arguments must be same including order of parameters.
+    Method signature must be same.
+    Private,static or final cannot be overriden.
+  Access modifiers point of view not reduced scope.
+  Cannot be done with static.
+
+  must be IS-A relationship (inheritance).
+  ● method must have same name as in the
+  parent class and child class.
+  ● method must have same parameter as in the
+  parent class.
+  ● Method must have the same return type as in
+  parent class
+  Like if parent class returned something then use return
+  if used print statement then use print.
+
+

@@ -1,0 +1,59 @@
+Inheritance:
+Essentially like how in real life. Instead theres lots of code and programs, and can be "inherited" by us.
+Allows one class to have all the properties and methods from another class except private method and constructors of course.
+We use extends keyword.
+Why we should learn about Inheritance:
+   Faster development.
+   Saves memory.
+
+  Syntax:
+  class Parent{
+
+  }
+
+   class Child extends Parent{
+
+  }
+  Rules:
+  1)Private members(fields,methods)  cannot be accessed in child class.
+  2)Constructors are also not available for child classes directly.
+  3)
+
+  Types of Inheritance:
+   1)Single inheritance
+   2)Hierarchical
+   3)MultiLevel
+   4)Hybrid
+   5)Multiple(It is not supported by java)
+
+   Little changes can affect other classes drastically. Butterfly effect on
+   all classes.
+
+  1) Single inheritance:
+     Only one parent class and one child class(Not very common).
+
+  2) Hierarchical:
+  One parent multiple child.
+
+  3)Multilevel:
+  If you want to have a grand parent class  for a parent class to have a child class
+  to inherit from parent.
+  Class C inherits from Class B and class B inherited from class A.
+
+  4)Hybrid:
+  Hybrid is a mixture of Hierarchical and Multilevel.
+
+  5)Multiple:
+  Can inherit from two parent classes.
+
+  What is the diamond problem in OOP?
+  The ambiguity that arises when two classed B and C inherit from A, and a further class
+  D inherits from both B and C, so that if there is a method in A that B or C has
+  overridden and D doest not override it, it is unclear which version of the method
+  D should inherit. Basically if we change something in parent class, need to make the same
+  changes in child class.
+
+  Disadvantage of inheritance:
+  Any changes can impact the classes drastically.
+
+

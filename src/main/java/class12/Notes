@@ -1,0 +1,44 @@
+Methods/Functions/Behaviours/routines
+Methods are blocks of code that contains pre-written code that is executed when
+we call methods.
+Method is the smallest unit.
+Static-lets the method be called on any class and package?
+If class/method you want to call upon is in a different package. Simply write
+
+import.packageName.className;
+
+Two main types of methods;
+1)Methods that do not return any data(void type)
+2)Methods that can return data like int double char etc.
+Syntax:
+int add(int num1,int num2){
+        int result=num1+num2;
+        return result;
+====================
+datatype methodName(dateType nameOfParameter, datatype nameOfOtherParameter){
+this is where we write the logic
+}
+int=>return type of method
+add=>name of method
+(int num1,int num2)=>Parameters
+{Body of method
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We will go over String builder vs String

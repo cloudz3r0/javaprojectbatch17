@@ -1,0 +1,16 @@
+Constructors:
+Help us build objects from classes easily. Constructors are public 99% of time.
+90% methods are public, 8% private and rest of the time they are default or protected.
+Constructors are used to initialize objects during creation and methods
+perform specific actions or calculations. Constructor must have same name
+as class.
+Helps us build objects from classes easily. Help give us initial values to the instance fields.
+
+Import static methods to other packages.
+Public static before method.
+
+Multiple constructors in one class:
+Needs to either have different number of parameters or different datatypes.
+If exactly the same java will get an error.
+
+When we do not create any constructor java automatically creates a default constructor behind the scenes

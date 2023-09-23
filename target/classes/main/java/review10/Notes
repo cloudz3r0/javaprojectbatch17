@@ -1,0 +1,49 @@
+Polymorphism:
+Its the ability of an object to behave differently. We can achieve polymorphism in two ways
+Overloading and overriding.
+
+Why should we learn about polymorphism?
+Cleaner code. We can use the same interface with different types of classes/objects.
+Allows us to write dynamic programs. Not hard coding. Can save us from a lot of code repetition.
+First we used inheritance. We use code from parent class into child and are able to use both parent and child classes.
+Example:
+WebDriver driver=new ChromeDriver();
+ChromeDriver driver=new ChromeDriver();
+
+Interview questions:
+Do we need methodOverriding for polymorphism?
+Yes but we can also use methodOverLoading.
+
+Abstraction:
+Abstraction is the process of hiding implementation details
+    and showing only the functionality (edited)
+Why:
+When we use abstraction it simplifies our code. Those classes which dont need to provide
+the implementation to the methods can leave it. So now body for method.
+keyword:
+Abstract
+Can we have private methods as abstract methods?
+no private means no participation in inheritance. Which means no overriding which will
+make abstract method useless
+2) Can we have a method as final and abstract at the same time?
+No bc final makes any element/method/variable unable to be overrided.
+Makes it complete and does not require modification when abstract means incomplete and requires
+modification.
+Interfaces:
+Interfaces are collection of public static final variables. By default they are public and abstract
+After java 8 we can have default,static and private methods as well.
+Why use?
+1) There is no diamond problem which allows us to have multiple inheritance.
+2)They are light weight simple contracts and can be used even when the classes are not
+related to eachother.
+Interview questions
+Can we have private variables in a interface?
+1) Private means no participation in inheritance which
+        means no overriding which will make abstract method useless.
+  2) Can we have a method as final and abstract at the same time?
+        Final means something is complete and does not require any modification
+        and abstract means something is incomplete and requires modification.
+        These are opposite to each other and not allowed.
+
+
+

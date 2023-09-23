@@ -1,0 +1,101 @@
+Types of variables:
+With respect to scope there are three types of variables. Local, instance and static.
+
+Local Variables:
+Variables that are declared inside a block of code are called local variables.
+For example all the variables that we declare inside if else statements,loop,switch case
+statements, Methods and Constructors.
+UpSide:
+They occupy the memory for the shortest period of time as soon as the block of code is done
+executing they are removed from the memory.
+DownSide:
+Access is limited. Can only be access in block of code.
+When should we use:
+Always go for local if possible.
+
+Instance variables:
+Outside of block of code.
+Upside:
+They can be accessed inside any instance method or constructor.
+Downside:
+Occupy the memory longer than local variables.
+Cant be accessed inside static. See E2 for examples.
+static methods are not tied to any specific instance; they belong to the class
+and have class-level scope and lifetime. When you call a static method,
+there may not even be an instance of the class in existence.
+Therefore, static methods have no direct access to instance-specific data.
+When we should use:
+1)When we want to share something across all instance methods.
+2)When we are planning to create multiple objects from that class
+and every object might have different value for a variable.
+
+Static variables:
+Instance variables with a static keyword are static variables.
+Upside:
+They have the widest scope can be accessed anywhere if combined with a proper access
+modifier. They can be accessed anywhere in the project.
+Downside:
+They can store one value at a time. If any one changes that value from anywhere it will
+get changed everywhere. Cant be overriden specifically. Stay in memory the longest.
+When to use:
+Whenever we want to share something across all methods and other classes.
+90% of the time they are final and public so everyone can use them but cant modify them
+
+Static methods:
+Methods that are declared with static key word are static methods.
+Upside:
+They can be used by just writing the name of the class. Can be access anywhere if
+combined with proper access modifier.
+DownSide:
+We cant override them. which means we will not be able to write dynamic code or
+will not be able to use PolyMorphism.
+When to use static methods:
+When i dont want to access the method anywhere without public and i dont want to create
+an object.
+====================================================================================
+Constructors:
+Are a special type of methods which are used to give initial values to fields/instance
+/properties/attribute. They also help us build an object easily from a class.
+Rules:
+Constructors dont have any return type or void
+they must have same name as class
+Static is not allowed
+
+Interview  questions:
+Can we have private constructors?
+Yes
+Can we use static with constructor?
+no
+Can we use final keyword with constructor?
+no
+Can i use return keyword with constructor?
+Yes.
+
+Why should we use constructors?
+Cleaner code.
+More secure code.
+
+This keyword:
+We can access the instance variables with this keyword and if theres a local variable
+in same scope
+We can call the constructor inside another constructor in the same class if we need to.
+======================================================================================
+Inheritance:
+Its one of the main pillars of OOPs. Code reuse ability. Allows us to build a class inside
+another class so that we dont repeat code. Extends is the keyword that we use to inherit
+the fields and methods from another class.
+Types of inheritance:
+1)Single inheritance 2)Hierarchical 3)Multilevel 4) Multiple(not supported in java) 5)Hybrid
+
+Why multiple inheritance is not supported in java?
+Its not allowed in java because of Diamond problem.
+
+Why should we use inheritance?
+1)Fast and less code.
+Rules:
+1)private members (fields,methods) cannot be used in child/derived class/subclass.
+2)Explicitly call constructors with super keyword. Are not inherited automatically.
+3)Inheritance is one way from parent to child.
+Disadvantages of Inheritance:
+Tightly Coupled. For example if you change anything in parent, it will give errors
+in child classes. But not adding members. Just changing variable names will give an error.
