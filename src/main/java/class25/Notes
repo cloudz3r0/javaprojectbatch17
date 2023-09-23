@@ -1,0 +1,48 @@
+Collections framework:
+Collections framework is just a collection of classes and interfaces which contain a lot
+of useful methods that we can use to store and manipulate large amounts of data.
+Why we should use?
+Like arrays they are fixed in size instead we dont have a fixed size.
+Variables arent the best for storing large amounts of data.
+1)Fixed in size
+2)There are no built-in methods in arrays.
+When should we use arrays are they useless now?
+Arrays are not useless even the arraylist is built using the arrays under the hood
+1)Arrays are fast and very space efficient when we know the size of something
+in advance we should prefer arrays.
+
+Wrapper class:
+For every primitive datatype we have a wrapper type.
+
+Why we should use Wrapper class:
+Wrapper class are object types which we can treat as objects. We can call methods
+which is not possible with primitive datatypes.
+
+ add and remove-linkedlist  , access elements-arraylis
+
+ArrayList:
+The data is stored in consecutive memory locations. Meaning accessing this data will be easier
+however if we have to add something or remove something in between the indexs with get shifted.
+LinkedList:
+Data is no stored in consecutive memory locations meaning its going to be hard and slow
+to find and access the data as we must go through all the elements which are present before it.
+Easier to add and remove as we just we need to re adjust the links.
+
+Interview Questions:
+90% the operations are retrieving the stored data and 10% are adding or removing the elements
+Which datastructure we should use ArrayList or linked list.
+Arraylist since we want to keep accessing the elements present. Much faster to access.
+If we want to add and remove 90% of the time then we use linked list.
+Sets:
+    Set is an interface in collections framework. There are three main classes which implement this
+    interface they are called 1)HashSet 2) LinkedHashSet 3) TreeSet. One thing is common in
+    all of the classes they don't allow to store duplicate data.
+HashSet:
+    UpSide: Its Fast(Batch17)
+    Downside: It doesn't maintain the insertion order.
+LinkedHashSet:
+    UpSide: Maintains the insertion order
+    DownSide: Its slower than HashSet.
+TreeSet:
+    Upside: Keeps the data in sorted order.
+    DownSide: Slowest of all.

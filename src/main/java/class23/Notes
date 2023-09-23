@@ -1,0 +1,14 @@
+Encapsulation:
+Irl definition. Inside the capsule. Create classes to write code and store data.
+Use private access modifiers to secure the data by limiting access. Getter and setter methods.
+Setter for update the value or overwrite data. Get method to get the field.
+why should we learn about encapsulation?
+It improves the control over the data that we store in the fields of a class.
+Which leads us to more secure code.
+Collections framework:
+Contains a lot of classes and interfaces.
+Which help us store and manipulate large amounts of data easily and efficiently
+Why collections framework?
+Arrays have limitations
+1)They are fixed in size meaning once we provide the size we cant change it afterwards.
+2)They dont have any built-in methods to help us process the data.

@@ -1,0 +1,33 @@
+Interface:
+basically like abstract but you can use several of them.
+They are like contracts. In which we define abstract methods which the classes have to implement with inheritance.
+Hvae to be dependent on each other. They can also have public static final variables.
+
+In Java, an interface is a blueprint for a class that defines a set of abstract methods (methods without a body)
+that any class implementing the interface must provide. Interfaces are used to define a contract or
+a set of rules that classes must follow, ensuring a consistent way to interact with objects of those classes.
+Java allows a class to implement multiple interfaces, which is a key feature for achieving polymorphism and code reusability.
+Why should we learn about interfaces?
+1)Specially designed for abstraction.
+2)Light weight as compared to abstract classes.
+3)We can achieve multiple inheritance in interfaces.
+4)There is no diamond problem when having multiple inheritance. Two parents with same names.
+Cant have two parents with abstraction.
+5)Helps us build things in a modular way. Can be used with classes even if they are not
+closely related.
+
+Nice for multiple developers to implement their code with eachother.
+Interfaces in Java make it easier for multiple developers to work together by providing clear rules and guidelines for how their code should interact.
+They help teams divide the work, reuse code, and write flexible, easy-to-test programs. Think of interfaces as a common language that developers agree
+upon to build and connect different parts of a software project, making collaboration smoother and more efficient.
+
+ Rules:
+ 1)Interfaces dont have instance methods but can have static methods.
+ 2)No instance fields. All are declared public static final.
+ 3)Constructors are allowed.
+ 4)Cant create object of the interface. We call on their classes.
+ 5)Cant have final keyword with interface or method as they are by default.
+ 6)We can have multiple inheritance as there is no Diamond problem.
+ 7)We can implements keyword when we have to implement an interface.
+
+ We can have private methods in interface but they need a body but that's a bit complicated.
