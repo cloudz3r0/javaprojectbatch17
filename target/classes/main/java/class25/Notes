@@ -44,5 +44,5 @@ LinkedHashSet:
     UpSide: Maintains the insertion order
     DownSide: Its slower than HashSet.
 TreeSet:
-    Upside: Keeps the data in sorted order.
+    Upside: Keeps the data in sorted order. Sorts alphabetically or by number.cd
     DownSide: Slowest of all.

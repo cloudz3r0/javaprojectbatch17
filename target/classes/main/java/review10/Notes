@@ -36,6 +36,7 @@ Why use?
 1) There is no diamond problem which allows us to have multiple inheritance.
 2)They are light weight simple contracts and can be used even when the classes are not
 related to eachother.
+
 Interview questions
 Can we have private variables in a interface?
 1) Private means no participation in inheritance which
