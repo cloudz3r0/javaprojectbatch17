@@ -1,0 +1,23 @@
+Types of errors in java:
+There are three main types of errors in java.
+Int age=20;
+1:Syntax errors/Compile time errors. The red lines we get on intellij
+2: Logic errors. Not doing what its supposed to do. Also could be called Bugs.
+3:Runtime errors/Exceptions. These happen after running the code.
+
+Syntax Error/Compile time error ex:
+age int=10;
+usually the build output/console will tell you how to fix it.
+How to solve?
+Most of the time your ide will help u
+Compiler will also generate an error with a red line
+You can look for rules of that language.
+
+Logic errors/Bugs:
+Logical occur when programs do not generate the expected outputs. When theres no syntax errors
+but the logic is incorrect.
+How to fix?
+Use debugger or chat Gbt
+
+Runtime errors/Exceptions:
+Are unwanted events that disrupts the normal flow of a program.

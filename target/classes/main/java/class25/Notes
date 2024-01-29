@@ -24,8 +24,9 @@ ArrayList:
 The data is stored in consecutive memory locations. Meaning accessing this data will be easier
 however if we have to add something or remove something in between the indexs with get shifted.
 LinkedList:
-Data is no stored in consecutive memory locations meaning its going to be hard and slow
+Data is not stored in consecutive memory locations meaning its going to be hard and slow
 to find and access the data as we must go through all the elements which are present before it.
+Keeps insertion order though.
 Easier to add and remove as we just we need to re adjust the links.
 
 Interview Questions:

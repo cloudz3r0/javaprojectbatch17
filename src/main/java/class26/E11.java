@@ -36,7 +36,14 @@ class Remove{
         makeup.put("EyeLiner", 35.5);
         makeup.put("EyeLiner", 25.5);
         makeup.put("Concealer", 35.5);
-        makeup.entrySet().removeIf(x->x.getKey().contains("a"));
+       // makeup.entrySet().removeIf(x->x.getKey().contains("a"));
+        // if keys contain A then remove
+
+        //makeup.entrySet().removeIf(x->x.getValue()>30);
+        //if values are over 30 then remove
+        makeup.entrySet().removeIf(x->x.getKey().contains("a")||x.getValue()>30);
+        //if we used && then we'd need both conditions to be true.
+        //blush on doesnt contain an A but its greater than 30 so it stays in the print
         System.out.println(makeup);
     }
 }

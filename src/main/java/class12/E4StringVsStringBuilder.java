@@ -12,5 +12,6 @@ public class E4StringVsStringBuilder {
         StringBuffer sf=new StringBuffer("Sunday");
         sb.reverse();
         sf.reverse();
+
     }
 }

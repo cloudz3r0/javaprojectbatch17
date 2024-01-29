@@ -25,7 +25,9 @@ public class Car {
 }
 class BMW extends Car {
     public BMW(String make, String model, double price, String color){
-        super(make,model,price,color);//make a constructor from the parent class
+        //make a constructor from the parent class
+        super(make,model,price,color);
+
         //with super keyword. This is the constructor to initialize the fields
         //and contains the same amount of fields as parent class.
     }

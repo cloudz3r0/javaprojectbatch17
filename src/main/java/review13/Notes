@@ -1,0 +1,20 @@
+What is a file?
+Files are entities/objects we use to store
+File handling
+reading/handling/writing/managing the files using code is called file handling
+As a tester:
+You will use .properties file Excel files sometimes .csv files as well
+we store configuration related data in .properties file for example
+usernames passwords urls the name of the browser on which
+you want to perform testing.
+
+What data do we store in excel?
+We store results of testing
+We store the data related to web forms inside excel. It is done
+when we need a lot of data to test a website. It is called
+Data driven testing
+
+Steps to work with a file:
+1. location/path on the computer
+2. bring the data from a file into ram
+3. Specific software/classes which understands how that file works.

@@ -1,7 +1,7 @@
 Interface:
 basically like abstract but you can use several of them.
 They are like contracts. In which we define abstract methods which the classes have to implement with inheritance.
-Hvae to be dependent on each other. They can also have public static final variables.
+Have to be dependent on each other. They can also have public static final variables.
 
 In Java, an interface is a blueprint for a class that defines a set of abstract methods (methods without a body)
 that any class implementing the interface must provide. Interfaces are used to define a contract or

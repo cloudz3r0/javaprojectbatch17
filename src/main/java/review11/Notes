@@ -1,0 +1,42 @@
+Collections framework:
+Collections FrameWork is a set of class and interfaces in java that we use to store large amounts
+of data easily. There are many classes containing many useful methods to manipulate the data.
+These data structures are dynamic.
+Why should we learn?
+Not fixed in size like arrays.
+They have readymade methods. Already Available.
+Any downside?
+Yes
+They are slower than Arrays
+As they only work with primitive datatypes they occupy more memory
+
+Wrapper Class:
+Objects that allow us to worth with primitive data types in collections.
+For every primitive data type java developers created a class so that we can store
+the primitive data in collections framework.They also have a way of converting a primitive to an equivalent wrapper
+its called auto-boxing and auto-unboxing features, which automatically convert between primitive data types and
+their corresponding wrapper classes when necessary so it simplifies the process
+Lists:
+They maintain insertion order
+They can store duplicates
+Main classes:
+       1)ArrayList implements List
+       2)LinkedList implements list
+===================================
+remove()->only removes one element
+removeIf(x->condition)removes all of the elements which meets the conditions.
+removeAll()removes a complete list of the elements.
+set()->replaces only one element.
+replaceAll(x->condition)replaces all elements that meet the specific conditions.
+stream().method/condition. Its a new version lambda.
+Sets:
+They dont allow duplicate data.
+HashSet
+Upside:Fastest
+DownSide:Insertion order is not maintained.
+
+LinkedHashSet
+Upside:Maintains the insertion order
+TreeSet:
+Upside:Keeps data sorted by number or alphabetically. Insertion speed is super slow.
+DownSide:

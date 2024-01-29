@@ -15,6 +15,9 @@ public class E8Sets {
         fruit.forEach(x-> System.out.println(x));
         for(String f:fruit){
             System.out.println(f);
+
+
+
         }
     }
 }

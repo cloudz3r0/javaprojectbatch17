@@ -4,7 +4,7 @@ public interface Vehicle {
     void drive();
 }
 interface Bike extends Vehicle{// use extends if parent and child are both interface
-    //parent class and child is interface then its implements.
+    //parent interface and child is class then its implements.
     //both are class then of course extends.
     void applyBreaks();
 }

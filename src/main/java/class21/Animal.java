@@ -7,7 +7,7 @@ public abstract class Animal {
     String color;
 
     //also making the whole class makes it so nobody can make the object of this class
-    //but the object of classes it inherits to.
+    //but the object of classes that its a parent to.
     abstract void speak();/*so before we had basic behaviors like animals can speak
        but we dont need the methods/bodies/implementations
     if our child classes have different behaviors.
@@ -25,8 +25,8 @@ so if we just want to use different for everything and never call on parent clas
 
 }
 
-//make class abstract if we dont have implementations of all
-// the parents class methods or constructors
+//make class abstract if we dont have implementations of all the parents class methods or constructors
+
 /*abstract*/class Dog extends Animal{
 
     @Override

@@ -4,7 +4,7 @@ package class23;
 
 public class BankAccountTester {
     public static void main(String[] args) {
-        Account b=new Account(12984,"USername",
+        Account b=new Account("Adrian",12984,60.0,"USername",
                 "Pass123","Savings");
         System.out.println(b.getBankAccountNumber());
         System.out.println(b.getName());

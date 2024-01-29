@@ -17,6 +17,7 @@ interface A{
 }
 class Tester{
     public static void main(String[] args) {
-
+// ABSTester a=new ABSTester();
+        //A a=new A();
     }
 }
